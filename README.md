@@ -1,7 +1,7 @@
 # Flo Vitamins Frontend Assessment
 
 ## Description 
-Recreating an E-commerace website: [a link](https://ruggable.com/pages/plush-rugs)
+Recreating an E-commerace website: [a link](https://ruggable.com/pages/dog-rug)
 
 ## Tools and Technology 
 React.js
