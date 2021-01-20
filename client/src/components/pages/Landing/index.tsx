@@ -4,7 +4,7 @@ import { NewestArrivals } from './NewestArrivals';
 import { TonsOfTexture } from './TonsOfTexture';
 import { Reviews } from './Reviews';
 import { PerfectRugSize } from './PerfectRugSize';
-import { Footer } from '../Footer';
+import { Footer } from '../../Footer';
 
 export function Landing() {
   return (
