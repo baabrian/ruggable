@@ -32,6 +32,8 @@ const useStyles = makeStyles({
   },
   card: {
     position: 'relative',
+    height: '400px',
+    width: '400px'
   },
   underline: {
     borderBottom: '3px solid #ffce29',
@@ -86,8 +88,7 @@ export function DropDown({ children, name }: DropDownProps) {
                   '/img/Desktop_BestSellers-Damali.webp'
                 }
                 style={{
-                  height: 'auto',
-                  width:'100%',
+                  height: '400px',
                   paddingTop: '56.25%',
                   objectFit: 'cover',
                 }}
