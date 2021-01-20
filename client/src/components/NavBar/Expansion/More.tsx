@@ -1,12 +1,39 @@
-import { Grid, Typography } from '@material-ui/core';
+import { Grid, makeStyles, Typography } from '@material-ui/core';
 import { DropDown } from './DropDown';
 import { Link } from 'react-router-dom';
+
+const useStyles = makeStyles({
+  popOverPaper: {
+    height: '500px',
+    width: '100%',
+    top: '4.5rem',
+    left: 0,
+    right: 0,
+  },
+  button: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    backgroundColor: 'white',
+    padding: '10px 30px',
+  },
+  card: {
+    position: 'relative',
+    height: '400px',
+    width: '400px',
+  },
+  underline: {
+    borderBottom: '3px solid #ffce29',
+    fontSize: '2em',
+  },
+});
 
 type MoreProps = {
   name: string;
 };
 
 export function More({ name }: MoreProps) {
+  const classes = useStyles();
   return (
     <>
       <DropDown name={name}>

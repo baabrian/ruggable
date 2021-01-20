@@ -33,7 +33,8 @@ const useStyles = makeStyles({
   card: {
     position: 'relative',
     height: '400px',
-    width: '400px'
+    width: '400px',
+    margin: 'auto'
   },
   underline: {
     borderBottom: '3px solid #ffce29',
